@@ -23,8 +23,15 @@ TARGET_SUPPORTS_QUICK_TAP := true
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
-# PixelExperience stuffs
-CUSTOM_BUILD_TYPE := Kitagawa
+# ProjectElixir stuffs
+CUSTOM_BUILD_TYPE := OFFICIAL
+TARGET_ENABLE_BLUR := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_GAPPS_ARCH := arm64
+
+# Supported Device Flags
+TARGET_SUPPORTS_NOW_PLAYING := true
+TARGET_INCLUDE_STOCK_ARCORE := true
 
 PRODUCT_NAME := aosp_alioth
 PRODUCT_DEVICE := alioth
