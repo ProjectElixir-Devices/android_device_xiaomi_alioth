@@ -4,9 +4,9 @@ rm -rf hardware/qcom-caf/sm8250/display && git clone https://github.com/Alioth-L
 rm -rf hardware/qcom-caf/sm8250/media && git clone https://github.com/Alioth-Lab/hardware_qcom_media -b twelve hardware/qcom-caf/sm8250/media
 rm -rf hardware/qcom-caf/sm8250/audio && git clone https://github.com/Alioth-Lab/hardware_qcom_audio -b twelve hardware/qcom-caf/sm8250/audio
 
-#Proton clang
+#Dora clang
 
-git clone --depth=1 https://github.com/kdrag0n/proton-clang.git prebuilts/clang/host/linux-x86/proton-clang
+git clone https://gitlab.com/zlatanr/dora-clang-1.git prebuilts/clang/host/linux-x86/dora-clang
 
 #BsgCam
 
