@@ -225,6 +225,10 @@ PRODUCT_COPY_FILES += \
 # Gcam
 $(call inherit-product-if-exists, vendor/GcamBSG/GcamBSG-vendor.mk)
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
