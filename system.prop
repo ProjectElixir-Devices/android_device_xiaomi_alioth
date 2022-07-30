@@ -12,6 +12,7 @@ ro.audio.resampler.psd.tbwcheat=0
 # Bluetooth
 ro.bluetooth.library_name=libbluetooth_qti.so
 persist.bluetooth.sbc_hd_higher_bitrate=1
+persist.vendor.btstack.enable.twsplussho=true
 
 # Camera
 camera.disable_zsl_mode=true
